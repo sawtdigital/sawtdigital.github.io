@@ -10,9 +10,7 @@ export function Footer() {
             <div className="flex items-center gap-2 mb-6">
               <img src="/assets/sawt-white.svg" alt="Sawt Digital" className="h-8" />
             </div>
-            <p className="text-gray-400 mb-6 leading-relaxed">
-              We are a digital agency that builds products, brands, and experiences for the modern world.
-            </p>
+
             {/* <div className="flex gap-4">
               {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
                 <a
@@ -69,7 +67,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-800 pt-10 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-gray-500 text-sm">© {new Date().getFullYear()} Sawt Digital. All rights reserved.</p>
+          <p className="text-gray-500 text-sm">© {new Date().getFullYear()} Sawt Digital</p>
         </div>
       </div>
     </footer>

@@ -44,9 +44,12 @@ export function Navbar() {
               {link.name}
             </a>
           ))}
-          <button className="bg-sawt-primary text-white px-5 py-2.5 rounded-full text-base font-medium hover:bg-sawt-secondary transition-colors">
+          <a
+            href="mailto:hello@sawt.com.au"
+            className="bg-sawt-primary text-white px-5 py-2.5 rounded-full text-base font-medium hover:bg-sawt-secondary transition-colors"
+          >
             Talk to us
-          </button>
+          </a>
         </div>
 
         {/* Mobile Toggle */}

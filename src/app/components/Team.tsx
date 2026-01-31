@@ -11,7 +11,7 @@ export function Team() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="lg:w-1/2 relative"
+            className="lg:w-1/2 relative hidden lg:block invisible"
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
