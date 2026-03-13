@@ -32,15 +32,10 @@ export function Team() {
             transition={{ duration: 0.6 }}
             className="lg:w-1/2"
           >
-            <span className="text-sawt-secondary font-display font-bold tracking-wider uppercase mb-2 block">
-              Who We Are
-            </span>
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
-              Industry veterans with a passion for digital excellence.
-            </h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">We're here to help.</h2>
             <p className="text-xl text-gray-600 mb-6 leading-relaxed">
-              Sawt's mission is simple; to help businesses to be heard in the digital world. We believe that great ideas
-              come from diverse perspectives, and our team is made up of talented individuals from all walks of life.
+              Sawt's mission is simple; to help Australian businesses find their voice online and connect with their
+              audience.
             </p>
             {/* <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               Our team is composed of award-winning designers, developers, and strategists from around the globe. We
@@ -62,12 +57,12 @@ export function Team() {
               </div>
             </div> */}
 
-            <a
+            {/* <a
               href="mailto:hello@sawt.com.au"
               className="text-black font-medium text-lg flex items-center gap-2 group hover:gap-4 transition-all"
             >
               Meet the team <ArrowRight className="w-5 h-5" />
-            </a>
+            </a> */}
           </motion.div>
         </div>
       </div>

@@ -39,14 +39,14 @@ export function Navbar() {
             <a
               key={link.name}
               href={link.href}
-              className="text-base font-medium text-black hover:text-sawt-primary transition-colors"
+              className="font-body text-base font-medium text-black hover:text-sawt-primary transition-colors"
             >
               {link.name}
             </a>
           ))}
           <a
             href="mailto:hello@sawt.com.au"
-            className="bg-sawt-primary text-white px-5 py-2.5 rounded-full text-base font-medium hover:bg-sawt-secondary transition-colors"
+            className="font-body bg-sawt-primary text-white px-5 py-2.5 rounded-full text-base font-medium hover:bg-sawt-secondary transition-colors"
           >
             Talk to us
           </a>
@@ -78,7 +78,7 @@ export function Navbar() {
                   {link.name}
                 </a>
               ))}
-              <button className="bg-sawt-primary text-white px-5 py-3 rounded-full text-base font-medium w-full mt-6">
+              <button className="font-body bg-sawt-primary text-white px-5 py-3 rounded-full text-base font-medium w-full mt-6">
                 Talk to us
               </button>
             </div>

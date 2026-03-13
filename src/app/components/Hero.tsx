@@ -19,7 +19,7 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-5xl md:text-7xl font-semibold tracking-tight text-gray-900 mb-8 leading-tight"
           >
-            Your digital voice, <span className="text-transparent bg-clip-text bg-sawt-secondary">amplified.</span>
+            Your online voice, <span className="text-transparent bg-clip-text bg-sawt-secondary">amplified.</span>
           </motion.h1>
 
           <motion.p
@@ -52,7 +52,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
-          className="mt-20 relative rounded-2xl overflow-hidden shadow-2xl"
+          className="my-20 relative rounded-2xl overflow-hidden shadow-2xl"
         >
           <motion.img
             initial={{ scale: 1.2 }}

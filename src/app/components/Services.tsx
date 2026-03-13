@@ -5,22 +5,25 @@ const services = [
   {
     icon: Rocket,
     title: 'Strategy',
-    description: 'We build roadmaps for success, aligning your business goals with user needs.',
+    description:
+      'We translate your ambition into a clear roadmap for success, tailored to your unique goals and audience.',
   },
   {
     icon: Palette,
     title: 'Design',
-    description: 'Crafting beautiful, intuitive interfaces that engage users and build brand loyalty.',
+    description:
+      'We create visually stunning and UX-focused designs that captivate your audience and drive brand recognition.',
   },
   {
     icon: Code,
     title: 'Development',
-    description: 'Robust, secure and scalable solutions for web, mobile, and custom applications.',
+    description: 'We build modern, responsive, accessible, SEO-friendly and lightning-fast websites and applications.',
   },
   {
     icon: BarChart3,
     title: 'Marketing',
-    description: 'Data-driven campaigns that drive traffic, conversion, and measurable growth.',
+    description:
+      'We amplify your online presence with analytics-based marketing that drives traffic, engagement, and conversions.',
   },
 ];
 
@@ -30,9 +33,9 @@ export function Services() {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div className="max-w-xl">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">Our Expertise</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">What we do</h2>
             <p className="text-xl text-gray-600">
-              We provide a comprehensive suite of digital services to help your business thrive in the modern world.
+              We offer a comprehensive suite of digital services to help you thrive in the modern world of business.
             </p>
           </div>
           {/* <button className="hidden md:flex items-center gap-2 text-lg font-medium border-b border-black pb-1 hover:text-gray-600 transition-colors">
