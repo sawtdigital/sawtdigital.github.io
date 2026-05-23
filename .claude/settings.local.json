@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(findstr /S /R \"primary\\\\|secondary\\\\|accent\\\\|destructive\\\\|muted\\\\|foreground\\\\|card\\\\|popover\\\\|background\\\\|border\\\\|input\\\\|sidebar\\\\|signal\\\\|canvas\\\\|chart\" src\\\\app\\\\**\\\\*.tsx)"
+    ]
+  }
+}

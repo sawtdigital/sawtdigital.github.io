@@ -1,25 +1,21 @@
-import { Navbar } from '@/app/components/Navbar';
-import { Hero } from '@/app/components/Hero';
-import { Services } from '@/app/components/Services';
-import { Work } from '@/app/components/Work';
-import { Testimonials } from '@/app/components/Testimonials';
-import { Team } from '@/app/components/Team';
-import { Contact } from '@/app/components/Contact';
-import { Footer } from '@/app/components/Footer';
-import { Toaster } from 'sonner';
+import Nav from '@/app/blocks/Nav';
+import Hero from '@/app/blocks/Hero';
+import About from '@/app/blocks/About';
+import Capabilities from '@/app/blocks/Capabilities';
+import Industries from '@/app/blocks/Industries';
+import Contact from '@/app/blocks/Contact';
+import Footer from '@/app/blocks/Footer';
 
 export default function App() {
   return (
-    <div className="font-sans antialiased text-gray-900 bg-white selection:bg-sawt-primary selection:text-white">
-      <Navbar />
+    <div className="w-full text-black font-sans selection:bg-black selection:text-canvas">
+      <Nav />
       <Hero />
-      <Services />
-      {/* <Work /> */}
-      <Team />
-      {/* <Testimonials /> */}
+      <About />
+      <Capabilities />
+      <Industries />
       <Contact />
       <Footer />
-      <Toaster position="bottom-right" />
     </div>
   );
 }
