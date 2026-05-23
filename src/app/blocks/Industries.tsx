@@ -45,7 +45,7 @@ export default function Industries() {
                 {/* <span className="font-arabic text-[28px] hidden md:inline" dir="rtl">
                   {row.ar}
                 </span> */}
-                <ArrowUpRight className="w-8 h-8 md:w-10 md:h-10 xl:w-12 xl:h-12 group-hover:rotate-45 transition-transform" />
+                {/* <ArrowUpRight className="w-8 h-8 md:w-10 md:h-10 xl:w-12 xl:h-12 group-hover:rotate-45 transition-transform" /> */}
               </div>
             </div>
           ))}
