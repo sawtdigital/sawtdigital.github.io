@@ -23,7 +23,7 @@ export default function Hero() {
             comply<span className="text-accent">.</span>
           </h1>
           <div className="mt-12 max-w-2xl">
-            <p className="text-lg xl:text-xl leading-body">
+            <p className="text-[2vmin] leading-body">
               We build digital products for industries where getting it wrong isn't an option. Fast, experimental, pixel
               perfect, and fluent in the regulatory frameworks that break most dev shops.
             </p>
@@ -34,14 +34,14 @@ export default function Hero() {
             </PrimaryButton>
             <a
               href="#capabilities"
-              className="inline-flex items-center gap-3 px-6 py-4 font-mono text-xs tracking-nav uppercase border-2 border-black hover:bg-black hover:text-canvas transition-colors"
+              className="inline-flex items-center gap-3 px-6 py-3 font-mono text-xs tracking-nav uppercase border-2 border-black hover:bg-black hover:text-canvas transition-colors"
             >
               What we do
             </a>
           </div>
         </div>
 
-        <aside className="col-span-12 md:col-span-4 flex flex-col  md:h-[calc(100vh-132px)]">
+        <aside className="col-span-12 md:col-span-4 flex flex-col md:h-full">
           <div className="relative h-[280px] md:h-1/2 w-full border-b-2 border-black overflow-hidden">
             <img src={img1} alt="" className="w-full h-full object-cover grayscale contrast-125" />
             <div className="absolute inset-0 mix-blend-multiply bg-signal/10" />
@@ -50,7 +50,7 @@ export default function Hero() {
               <span>STRUCTURE</span>
             </div>
           </div>
-          <div className="flex-1 p-6 md:p-8 bg-black text-canvas hidden md:flex flex-col justify-between min-h-[280px]">
+          <div className="flex-1 p-6 md:p-8 bg-black text-canvas hidden md:flex flex-col justify-between h-[280px] md:h-1/2">
             <div className="flex items-start justify-between">
               <Marker>Index</Marker>
               <Plus className="w-4 h-4" />
