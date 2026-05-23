@@ -23,7 +23,7 @@ export default function Hero() {
             comply<span className="text-accent">.</span>
           </h1>
           <div className="mt-12 max-w-2xl">
-            <p className="text-[2vmin] leading-body">
+            <p className="text-base md:text-[2vmin] leading-body">
               We build digital products for industries where getting it wrong isn't an option. Fast, experimental, pixel
               perfect, and fluent in the regulatory frameworks that break most dev shops.
             </p>
